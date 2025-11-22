@@ -122,6 +122,7 @@ h1, h2, h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 25px;
+    margin-top: 32px;
     margin-bottom: 40px;
 }
 
@@ -316,4 +317,5 @@ button {
 @media (max-width: 768px) {
     .header h1 { font-size: 2rem; }
     .dashboard-grid { grid-template-columns: 1fr; }
+
 }
